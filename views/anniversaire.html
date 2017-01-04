@@ -54,7 +54,7 @@
 
 <hr/>
 				<p>Vous souhaitez réserver pour l’anniversaire de votre enfant ? Rendez nous visite au parc aux horaires d’ouverture ou réservez en ligne (pour des raisons d’efficacité, aucune réservation ne sera prise par téléphone)</p>
-	<p>
+	<p style="font-size: 0.9em;">
 					Prestation nécessitant minimum 6 enfants (de 2 à 12 ans). Nous consulter pour un anniversaire avec moins d’invités.
 					<!--
 					Nous vous rappelons que les consommations extérieures (boissons, nourriture, bonbons…) sont interdites dans l’enceinte du parc.
@@ -72,6 +72,7 @@
 
 			Afficher la FAQ {{$ctrl.faq}}
 			</a></div>
+
 			<p>&nbsp;</p>
 
 			</div>
@@ -79,33 +80,38 @@
 			</div>
 
 			<div ng-if="$ctrl.faq == true" class="animated fadeIn">
-			<div class="col-lg-6 ">
+			<!--<div class="col-lg-6 ">
 				
 
 				<!--<p>
 					Vous règlerez le solde de la prestation le jour de l'anniversaire, en fonction du nombre d'enfants effectivement présents.
 					Si vous souhaitez modifier votre réservation (date, nombre d'enfants...), merci de nous contacter uniquement par e-mail ou en venant au parc durant les heures d'ouverture (aucune modification ne sera effectuée par téléphone)
-				</p>-->
+				</p>
 				
 			
 				
-			</div>
-			<div class="col-lg-6 ">
-			<div style="font-size: 0.8em; color: #DDD">
+			</div>-->
+			<div class="col-lg-8 col-lg-offset-2 ">
+			<div style="font-size: 0.8em; color: #DDD" class="faq shadow">
+			<style>
+				.faq b {
+					color: #B66FDD;
+				}
+			</style>
 				<p> Trouvez ici la réponse à toutes vos questions :</p>
 					
-					<p>Reste t’il de la place à la date que je désire ?<br/>Le formulaire vous fournira automatiquement les dates disponibles, il est mis à jour en temps réel.
+					<p><b>Reste t’il de la place à la date que je désire ?</b><br/>Le formulaire vous fournira automatiquement les dates disponibles, il est mis à jour en temps réel.
 					</p>
-					<p>
-Je ne connais pas encore le nombre d’invités, comment faire ? <br/> Indiquez nous le nombre maximum d’enfants attendus (votre enfant compris). Vous ne payerez que pour les enfants présents.</p>
-<p>
-Quels sont les horaires ? <br/> Pour le matin, nous mettons la table à votre disposition entre 10h et 13h30, avec le repas (en option) et le gâteau servis vers 12h. Pour l’après midi, nous accueillons les invités entre 14h et 15h, servons le goûter vers 15h30 et les enfants peuvent repartir à partir de 17h</p>
-<p>
-Quand dois-je payer ? <br/> Vous réglerez l’intégralité de la prestation le jour même, en fonction du nombre d’enfants présents.</p>
-<p>
-Je n’ai pas reçu de mail de confirmation, ma réservation est-elle prise en compte ? <br/> Oui, pas de problème. Nous prenons le temps de vérifier chaque réservation, c’est pourquoi l’e-mail peut prendre jusqu’à 72h avant d’être envoyé. Pensez à vérifier vos spams !</p>
-<p>
-Je souhaite modifier ma réservation, comment faire ? <br/> Passez nous voir au parc ou envoyez nous un e-mail, nous prendrons en compte votre demande. (aucune modification ne sera effectuée par téléphone)</p>
+					<p><b>
+Je ne connais pas encore le nombre d’invités, comment faire ? </b><br/> Indiquez nous le nombre maximum d’enfants attendus (votre enfant compris). Vous ne payerez que pour les enfants présents.</p>
+<p><b>
+Quels sont les horaires ? </b><br/> Pour le matin, nous mettons la table à votre disposition entre 10h et 13h30, avec le repas (en option) et le gâteau servis vers 12h. Pour l’après midi, nous accueillons les invités entre 14h et 15h, servons le goûter vers 15h30 et les enfants peuvent repartir à partir de 17h</p>
+<p><b>
+Quand dois-je payer ? </b><br/> Vous réglerez l’intégralité de la prestation le jour même, en fonction du nombre d’enfants présents.</p>
+<p><b>
+Je n’ai pas reçu de mail de confirmation, ma réservation est-elle prise en compte ? </b><br/> Oui, pas de problème. Nous prenons le temps de vérifier chaque réservation, c’est pourquoi l’e-mail peut prendre jusqu’à 72h avant d’être envoyé. Pensez à vérifier vos spams !</p>
+<p><b>
+Je souhaite modifier ma réservation, comment faire ?</b> <br/> Passez nous voir au parc ou envoyez nous un e-mail, nous prendrons en compte votre demande. (aucune modification ne sera effectuée par téléphone)</p>
 
 				</div>
 				
