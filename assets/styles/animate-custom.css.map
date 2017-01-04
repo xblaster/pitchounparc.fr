@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACR,0BAA0B,EAAE,KAAK;EACjC,kBAAkB,EAAE,KAAK;EACzB,2BAA2B,EAAE,IAAI;EACjC,mBAAmB,EAAE,IAAI;EAEzB,yBAAyB,EAAE,0BAA8B;;AAG3D,iBAAkB;EACjB,OAAO,EAAE,CAAC",
+"sources": ["../../../raw/styles/animate-custom.scss"],
+"names": [],
+"file": "animate-custom.css"
+}

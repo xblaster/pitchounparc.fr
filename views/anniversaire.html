@@ -1,0 +1,117 @@
+<div id="anniversaire" ng-init="$ctrl.faq == false" ng-controller="HeadCtrl as $ctrl">
+	<div class="container" >
+		<h1 class="" animate-in-view="fadeInUp">Bienvenue dans la maison de l’anniversaire !</h1>
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="">Dans une ambiance détendue et chaleureuse, nous accueillons les enfants pour un moment de fête et de plaisir.
+					Animations, jeux et cadeaux seront au rendez vous, pour un anniversaire inoubliable !
+				</p>
+				<p class="">
+					Découvrez nos formules qui comprennent toutes un accès illimité aux jeux :
+				</p>
+
+			</div>
+		</div>
+		<div class="row" class="glow">
+			<div class="col-lg-6" animate-in-view="fadeInUp">
+				<div class="card " >
+				<h4 class="header">
+						Formule à 6€ par enfant comprenant :
+					</h4>
+					<div class="content">
+						<p class="">
+							
+							<ul><li>une table réservée et dressée</li><li>2 carafes de sirop</li><li>une tarte au chocolat avec les bougies</li><li>l’accès illimité aux jeux et animations</li></ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6"  animate-in-view="fadeInUp">
+				<div class="card " >
+					
+						<h4 class="header">
+						Formule à 8€ par enfant comprenant :
+					</h4>
+					<div class="content">
+						<p class="">
+						
+							
+							<ul><li>une table réservée et dressée</li><li>1 bouteille de Coca et 1 bouteille d’Oasis (une bouteille supplémentaire offerte au delà de 12 enfants)</li><li>un bavarois pâtissier (chocolat ou framboise – un gâteau supplémentaire offert au delà de 12 enfants) avec les bougies</li><li>l’arrivée du gâteau en musique</li><li>une assiette de bonbons (une assiette supplémentaire offerte au delà de 12 enfants)</li><li>l’accès illimité aux jeux et animations</li></ul>
+						</p>
+
+
+						
+					</div>
+				</div>
+
+			
+
+
+				</div>
+			</div>
+
+			<div class="col-lg-12">
+
+<hr/>
+				<p>Vous souhaitez réserver pour l’anniversaire de votre enfant ? Rendez nous visite au parc aux horaires d’ouverture ou réservez en ligne (pour des raisons d’efficacité, aucune réservation ne sera prise par téléphone)</p>
+	<p>
+					Prestation nécessitant minimum 6 enfants (de 2 à 12 ans). Nous consulter pour un anniversaire avec moins d’invités.
+					<!--
+					Nous vous rappelons que les consommations extérieures (boissons, nourriture, bonbons…) sont interdites dans l’enceinte du parc.
+					Pour toute question, merci de nous contacter : 05 61 82 36 19 ou contact@pitchounparc.fr-->
+				</p>
+			
+				<div class="margin">
+						<a class="btn btn-primary btn-lg btn-block" href="https://reza-pitchoun.lo2k.net" animate-in-view="bounceIn"><!--Reserver votre anniversaire !-->
+			Réserver pour un anniversaire</a>
+
+
+				<div class="row">
+				<br/>
+				<a class="col-lg-6 col-lg-offset-3 btn btn-green btn animated bounce" ng-if="!$ctrl.faq" ng-click="$ctrl.faq=true">
+
+			Afficher la FAQ {{$ctrl.faq}}
+			</a></div>
+			<p>&nbsp;</p>
+
+			</div>
+
+			</div>
+
+			<div ng-if="$ctrl.faq == true" class="animated fadeIn">
+			<div class="col-lg-6 ">
+				
+
+				<!--<p>
+					Vous règlerez le solde de la prestation le jour de l'anniversaire, en fonction du nombre d'enfants effectivement présents.
+					Si vous souhaitez modifier votre réservation (date, nombre d'enfants...), merci de nous contacter uniquement par e-mail ou en venant au parc durant les heures d'ouverture (aucune modification ne sera effectuée par téléphone)
+				</p>-->
+				
+			
+				
+			</div>
+			<div class="col-lg-6 ">
+			<div style="font-size: 0.8em; color: #DDD">
+				<p> Trouvez ici la réponse à toutes vos questions :</p>
+					
+					<p>Reste t’il de la place à la date que je désire ?<br/>Le formulaire vous fournira automatiquement les dates disponibles, il est mis à jour en temps réel.
+					</p>
+					<p>
+Je ne connais pas encore le nombre d’invités, comment faire ? <br/> Indiquez nous le nombre maximum d’enfants attendus (votre enfant compris). Vous ne payerez que pour les enfants présents.</p>
+<p>
+Quels sont les horaires ? <br/> Pour le matin, nous mettons la table à votre disposition entre 10h et 13h30, avec le repas (en option) et le gâteau servis vers 12h. Pour l’après midi, nous accueillons les invités entre 14h et 15h, servons le goûter vers 15h30 et les enfants peuvent repartir à partir de 17h</p>
+<p>
+Quand dois-je payer ? <br/> Vous réglerez l’intégralité de la prestation le jour même, en fonction du nombre d’enfants présents.</p>
+<p>
+Je n’ai pas reçu de mail de confirmation, ma réservation est-elle prise en compte ? <br/> Oui, pas de problème. Nous prenons le temps de vérifier chaque réservation, c’est pourquoi l’e-mail peut prendre jusqu’à 72h avant d’être envoyé. Pensez à vérifier vos spams !</p>
+<p>
+Je souhaite modifier ma réservation, comment faire ? <br/> Passez nous voir au parc ou envoyez nous un e-mail, nous prendrons en compte votre demande. (aucune modification ne sera effectuée par téléphone)</p>
+
+				</div>
+				
+				
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
